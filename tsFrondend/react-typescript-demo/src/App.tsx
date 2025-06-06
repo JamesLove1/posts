@@ -1,6 +1,7 @@
 
 import './App.css';
 import Button from './components/Button';
+import Container from './components/Container';
 import Greet from './components/Greet';
 import Heading from './components/Heading';
 import Input from './components/Input';
@@ -13,18 +14,19 @@ function App() {
 
   return (
     <div className="App">
-
+      
     </div>
   );
 }
 
 export default App;
 
+// video 7
+     {/* <Container styles={{border: "1px solid black", padding: "1rem"}} /> */}
 
 //video 6
       // <Button handleClick={(event, id)=>{console.log("BUtton Clicked", event, id)}} />
       // <Input value="" handleChange={(event) => console.log(event)} />
-
 
 // pre video 5 
   // const personName = {
